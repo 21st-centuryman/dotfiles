@@ -1,7 +1,3 @@
-import = [
-#"~/.config/alacritty/catppuccin-latte.toml"
-"~/.config/alacritty/catppuccin-mocha.toml"
-]
 
 [cursor]
 style = "Beam"
@@ -9,10 +5,18 @@ style = "Beam"
 [font.normal]
 family = "MesloLGS Nerd Font Mono"
 
-[shell]
+[terminal.shell]
 args = ["-l", "-c", "tmux attach || tmux"]
 program = "/bin/zsh"
 
 [window.padding]
 x = 10
 y = 10
+
+[general]
+import = [
+#"~/.config/alacritty/catppuccin-latte.toml"
+"~/.config/alacritty/catppuccin-mocha.toml"
+]
+
+[terminal]
