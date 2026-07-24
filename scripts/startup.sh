@@ -16,7 +16,7 @@ stow_configs() {
 	rm -f "$HOME/.gitconfig" "$HOME/.tmux.conf" "$HOME/.zshrc"
 	ln -sfn "$HOME/.config/git/gitconfig" "$HOME/.gitconfig"
 	ln -sfn "$HOME/.config/zsh/zshrc" "$HOME/.zshrc"
-	ln -sfn "$HOME/.config/tmux/tmux.conf" "$HOME/.tmux.conf"
+	ln -sfn "$HOME/.config/tmux.conf" "$HOME/.tmux.conf"
 }
 
 download_font() {
